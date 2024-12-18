@@ -1,0 +1,91 @@
+
+/* Overall styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  /* Music Player Styling */
+.music-player {
+    background-color: gold;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+  /* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(180, 227, 245);
+}
+.circle:hover {
+    background-color: rgb(85, 85, 248);
+}
+
+.fa-solid {
+    color: black;
+    font-size: 20px;
+  }
+
+  /* Song Image Styling */
+.song-img {
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+  /* Song Info Styling */
+h1, p {
+    margin-bottom: 5px;
+}
+b {
+    color: black;
+}
+#progress {
+    width: 100%;
+    margin: 5px 0;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+.controls button {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+     background-color: rgb(180, 227, 245);
+}
+.controls button:hover {
+    background-color: rgb(85, 85, 248);
+}
+  .fa-solid {
+    font-size: 20px;
+}
+.fa-play {
+    transform: rotate(0deg);
+}
+#ctrlIcon.pause {
+    transform: rotate(180deg);
+}

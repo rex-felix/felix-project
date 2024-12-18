@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/83325eccf9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="Coloured .jpg" class="song-img">
+            <h1>Tracks</h1>
+            <p>Artist</p>
+            <audio controls id="song">
+                <source src="MUSIC/Be-Warned (1).mp3" type="audio/mpeg">
+                <source src="MUSIC/Be-Warned (2).mp3" type="audio/mpeg">
+                <source src="MUSIC/Be-Warned (3).mp3" type="audio/mpeg">
+                <source src="MUSIC/Be-Warned (4).mp3" type="audio/mpeg">
+                <source src="MUSIC/Be-Warned (5).mp3" type="audio/mpeg">
+                <source src="MUSIC/Be-Warned (6).mp3" type="audio/mpeg">
+                <source src="MUSIC/Be-Warned (7).mp3" type="audio/mpeg">
+                <source src="MUSIC/Be-Warned (8).mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <button id="previous"><i class="fa-solid fa-backward"></i></button>
+                <button id="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+                <button id="playPause"><i class="fa-solid fa-play"></i></button>
+                <button id="repeat"><i class="fa-solid fa-repeat"></i></button>
+                <button id="next"><i class="fa-solid fa-forward"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
